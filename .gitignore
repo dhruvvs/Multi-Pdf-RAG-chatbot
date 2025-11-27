@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Envs / secrets
+.env
+q.env
+.venv/
+venv/
+env/
+
+# Vector index (optional)
+faiss_index/
+
+# PDFs (optional, keep private)
+data_pdfs/
+data_pdf/
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
